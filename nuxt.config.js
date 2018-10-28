@@ -42,10 +42,7 @@ module.exports = {
   loading: { color: '#384D66' },
 
   modules: [
-    '@nuxtjs/axios',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-93904346-3'
-    }]
+    '@nuxtjs/axios'
   ],
 
   plugins: [
